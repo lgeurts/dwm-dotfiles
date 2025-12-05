@@ -1,6 +1,6 @@
 MY DOTS FOR ARCH LINUX WITH DWM, PATCHED ST & POLYBAR.
 
-These files are part of a custom configuration built for company purposes like web development and programming. As such we kept it clean (free of GUIs, multimedia etc.) based on the suckless.org philosophy of minimalism and simplicity.
+These files are part of a custom configuration built for company purposes like web development and programming. As such we kept it clean based on the suckless.org philosophy of minimalism and simplicity.
 
 LICENSE
 
