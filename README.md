@@ -1,24 +1,9 @@
-Arch Linux DWM Rice with Polybar
+MY DOTS FOR ARCH LINUX WITH DWM, PATCHED ST, and POLYBAR.
 
-This is a custom configuration for Arch Linux's DWM window manager, with a custom rice and Polybar, a lightweight status bar for X11.
-Prerequisites
+These files are part of a custom configuration built for company purposes like web development and programming. As such we kept it clean (free of GUIs, multimedia etc.) based on the suckless.org philosophy of minimalism and simplicity.
 
-Before you begin, make sure you have the following installed on your system:
+LICENSE
 
-    Arch Linux (or a compatible distribution)
-    Git (to clone the repository)
+This configuration is licensed under the MIT License.
 
-Customization
-
-Feel free to customize this configuration to suit your needs. You can modify the config.h and config.mk files in the dwm directory to change DWM's behavior, and edit the config file in the polybar directory to change the appearance and behavior of the status bar.
-
-License
-
-This configuration is licensed under the MIT License, so you are free to use and modify it for personal or commercial purposes.
-
-This configuration is based on the suckless.org philosophy of minimalism and simplicity. It was build using ArchInstall, Suckless source code, and a lot of inspiration by fellow DWM users.
-It's main pupose is development using languages as rust, go, python, bash shell, some powershell, and last but not least creating webpages for our company.
-
-If you have any questions or suggestions, feel free to contact the author or submit a pull request. Have fun!
-
-Screenshots
+SCREENSHOTS
