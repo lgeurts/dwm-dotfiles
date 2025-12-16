@@ -2,37 +2,97 @@
 
 [![AUR](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/lgeurts/dwm-dotfiles/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
-# DWM dotfiles
+ Arch Linux & Suckless DWM
 
-Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made by me, some by others. For a full installation guide, read [this post](https://lgeurts.github.io/open%20source/2017/07/11/bunsenlabs-linux-setup-notes-for-dell-inspiron-6000/).
+### My all in one suckless tools (dwm, dmenu, st, slstatus, slock)
 
-## Screenshots
+![Alt text](/img/s1.png?raw=true "First image")
+![Alt text](/img/s2.png?raw=true "Second image")
+![Alt text](/img/s3.png?raw=true "Third image")
 
-![Clean](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-clean.png)
+#### What I use:
 
-Obligatory busy screenshot, I'm just pretending.
+- **Feh** as wallpapers manager
+- **dunst** as notifications manager (include config)
+- **flameshot** for screenshots
+- **brightnessctl** and **pamixer** for volume and brightness control
+- **playerctl** for multimedia control
+- **[Ubuntu Mono Nerd Font](https://archlinux.org/packages/community/any/ttf-ubuntumono-nerd/)** & **[JetBrainsMono Font](https://archlinux.org/packages/community/any/ttf-jetbrains-mono/)** - as fonts
+- **picom** - as compositor (i use the [pijulius](https://github.com/pijulius) fork)
 
-![Dirty](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-dirty.png)
+#### Installation
 
-The same with other wallpaper, and the rounded corners patch.
+1.  Install `git`
 
-![Dirty-Rounded](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-rounded-dirty.png)
+    ```
+    sudo pacman -Sy git
+    ```
 
-## Setup
+2.  Copy this repository to the home folder
 
-- Bar: `dmenu.`
-- Compositor: `picom.`
-- Shell: `starship.`
-- Terminal Emulator: `st.`
-- Text Editor: `nVim.`
-- MPD client: `ncmpcpp.`
-- Web Browser: `cutebrowser.`
-- Window Manager: `Suckless DWM.`
-- Theme: `Catppuccin.`
+    ```
+    cd $HOME
+    sudo git clone https://github.com/lgeurts/dwm-dotfiles.git
+    ```
 
-## Installation
+3.  Make `script.sh` executable and run it
 
-- Download repo: clone --depth=1.
-- Inspect dotfiles.
-- Find the stuff you like.
-- Change, add to your dotfiles.
+    ```
+    sudo chmod +x script.sh
+    ./script.sh
+    ```
+
+4.  **(Optional)** By default, the script does not check for `.desktop` files in the `xsessions` folder. If you use display manager (like sddm or others), add a `dwm.desktop` file in the `xsessions` folder with following content:
+
+    ```
+    [Desktop Entry]
+    Name=DWM
+    Comment=Dynamic Window Manager
+    Exec=dwm
+    Type=Application
+    ```
+
+#### Feh directory (for backgrounds):
+
+```
+/home/{user_name}/.wallpapers
+```
+
+#### DWM Patches:
+
+- **alwayscenter**
+- **attachbottom**
+- **autostart**
+- **pertag**
+- **preserveonrestart**
+- **restartsig**
+- **rotatestack**
+- **stairs**
+- **status2d**
+- **status2d-systray**
+- **titlecolor**
+- **vanitygaps**
+- **winicon**
+
+#### DMenu Patches:
+
+- **border**
+- **caseinsensitive**
+- **center**
+- **fuzzyhighlight**
+- **grid**
+- **lineheight**
+
+#### St Patches:
+
+- **alpha**
+- **font2**
+- **glyph-wide-support**
+- **scrollback-mouse**
+
+#### Slock Patches:
+
+- **capscolor**
+- **message**
+
+
