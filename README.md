@@ -20,20 +20,20 @@
 
 #### Installation
 
-1.  Install `git`
+1.  Install `git`:
 
     ```
     sudo pacman -Sy git
     ```
 
-2.  Copy this repository to the home folder
+2.  Copy this repository to the home folder:
 
     ```
     cd $HOME
     sudo git clone https://github.com/lgeurts/dwm-dotfiles.git
     ```
 
-3.  Make `script.sh` executable and run it
+3.  Make `script.sh` executable and run it:
 
     ```
     sudo chmod +x script.sh
