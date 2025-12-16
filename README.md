@@ -40,7 +40,7 @@
     ./script.sh
     ```
 
-4.  **(Optional)** By default, the script does not check for `.desktop` files in the `xsessions` folder. If you use display manager (like sddm or others), add a `dwm.desktop` file in the `xsessions` folder with following content:
+4.  **(Optional)** By default, the script does not check for `.desktop` files in the `xsessions` folder. If you use display manager (like sddm or others), add a `dwm.desktop` with below content in the `xsessions` folder:
 
     ```
     [Desktop Entry]
