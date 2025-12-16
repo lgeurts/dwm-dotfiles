@@ -23,7 +23,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 #### Pre-requisites
 
-1.   Baseline Arch Linux installed using [ArchInstall](https://wiki.archlinux.org/title/Archinstall) and copying the configuration from the [ISO](https://archlinux.org/download/) 
+1.   Baseline Arch Linux installed using [ArchInstall](https://wiki.archlinux.org/title/Archinstall) and copying the network configuration from the [ISO](https://archlinux.org/download/) 
 2.   At least 8 GiB of free space on the system partition
 3.   A user:
 
