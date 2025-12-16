@@ -11,7 +11,7 @@
 #### What I use:
 
 - **Feh** as wallpapers manager
-- **dunst** as notifications manager (include config)
+- **dunst** as notifications manager (includes config)
 - **flameshot** for screenshots
 - **brightnessctl** and **pamixer** for volume and brightness control
 - **playerctl** for multimedia control
@@ -53,7 +53,7 @@
 #### Feh directory (for backgrounds):
 
 ```
-/home/{user_name}/.wallpapers
+/home/{user_name}/Pictures/Wallpapers
 ```
 
 #### DWM Patches:
