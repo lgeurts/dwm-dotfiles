@@ -20,27 +20,27 @@
 
 #### Installation
 
-1.  Install `git`:
+1.  Install `git`
 
     ```
     sudo pacman -Sy git
     ```
 
-2.  Copy this repository to the home folder:
+2.  Copy this repository to the home folder
 
     ```
     cd $HOME
     sudo git clone https://github.com/lgeurts/dwm-dotfiles.git
     ```
 
-3.  Make `script.sh` executable and run it:
+3.  Make `script.sh` executable and run it
 
     ```
     sudo chmod +x script.sh
     ./script.sh
     ```
 
-4.  **(Optional)** By default, the script does not check for `.desktop` files in the `xsessions` folder. If you use a display manager like for example sddm (or others), add a `dwm.desktop` with below content in the `xsessions` folder:
+4.  **(Optional)** By default, the script does not check for `.desktop` files in the `xsessions` folder. If you use a display manager like for example sddm (or others), add a `dwm.desktop` file with below content in the `xsessions` folder
 
     ```
     [Desktop Entry]
