@@ -4,7 +4,7 @@
 
 This repository comprises an extensive assortment of modular scripts and configuration files built upon ArchLinux and dwm. Its objective is to deliver a stable, clutter-free, and ergonomic desktop environment tailored for advanced users.
 
-All updates and enhancements aim to avoid unnecessary breaking changes, aligning closely with the rolling-release nature of the underlying system, while requiring minimal maintenance.
+All updates and enhancements aim to avoid breaking changes, aligning closely with the rolling-release nature of the underlying system, while requiring minimal maintenance.
 ### My all in one patched suckless tools (dwm, dmenu, st, slstatus, slock)
 
 ![Alt text](/img/s1.png?raw=true "First image")
