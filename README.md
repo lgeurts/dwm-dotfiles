@@ -119,7 +119,4 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 #### Credits:
 
-HUGE THANKS to my colleagues at Flouze.. I can't even count the number of times he has helped me :v
-
-HUGE THANKS to my colleagues at Flouze. I can't even count the number of times he has helped me
-
+HUGE THANKS to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost.
