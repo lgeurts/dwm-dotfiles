@@ -1,6 +1,6 @@
 # Read Me
 
-[![AUR](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/lgeurts/dwm-dotfiles/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Coverage: Good](https://img.shields.io/badge/coverage-95%25-orange)] 
+[![AUR](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/lgeurts/dwm-dotfiles/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [Coverage: Good](https://img.shields.io/badge/coverage-95%25-orange)
 
 This repository comprises an extensive assortment of modular scripts and configuration files built upon Arch and dwm. Its objective is to deliver a stable, clutter-free, and ergonomic desktop environment tailored for advanced users.
 
