@@ -60,35 +60,35 @@
 
 - ***alwayscenter***
 - ***attachbottom***
-- ****autostart****
-- **pertag**
-- **preserveonrestart**
-- **restartsig**
-- **rotatestack**
-- **stairs**
-- **status2d**
-- **status2d-systray**
-- **titlecolor**
-- **vanitygaps**
-- **winicon**
+- ***autostart***
+- ***pertag***
+- ***preserveonrestart***
+- ***restartsig***
+- ***rotatestack***
+- ***stairs***
+- ***status2d***
+- ***status2d-systray***
+- ***titlecolor***
+- ***vanitygaps***
+- ***winicon***
 
 #### DMenu Patches:
 
-- **border**
-- **caseinsensitive**
-- **center**
-- **fuzzyhighlight**
-- **grid**
-- **lineheight**
+- ***border***
+- ***caseinsensitive***
+- ***center***
+- ***fuzzyhighlight***
+- ***grid***
+- ***lineheight***
 
 #### St Patches:
 
-- **alpha**
-- **font2**
-- **glyph-wide-support**
-- **scrollback-mouse**
+- ***alpha***
+- ***font2***
+- ***glyph-wide-support***
+- ***scrollback-mouse***
 
 #### Slock Patches:
 
-- **capscolor**
-- **message**
+- ***capscolor***
+- ***message***
