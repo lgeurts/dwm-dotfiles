@@ -33,7 +33,7 @@ All updates and enhancements aim to avoid breaking changes, aligning closely wit
      ```
      In order to have root privileges we need sudo. Edit /etc/sudoers with nano or vim by uncommenting this line:
      ```
-     ## Uncomment to allow members of group wheel to execute any command'
+     ## Uncomment to allow members of group wheel to execute any command
         '# %wheel ALL=(ALL) ALL'
      ```
        
