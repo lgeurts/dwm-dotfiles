@@ -26,16 +26,16 @@ All updates and enhancements aim to avoid breaking changes, aligning closely wit
 1.   Baseline Arch Linux installed (ArchInstall)
 2.   At least 8 GiB of free space on the system partition
 3.   A user:
-     ...
+     ```
      useradd -m username
-     sudo sswd username
+     passwd username
      usermod -aG wheel,video,audio,storage username
-     ...
+     ```
      In order to have root privileges we need sudo. Edit /etc/sudoers with nano or vim by uncommenting this line:
-     ...
+     ```
      ## Uncomment to allow members of group wheel to execute any command'
         '# %wheel ALL=(ALL) ALL'
-     ...
+     ```
        
 #### Installation
 
