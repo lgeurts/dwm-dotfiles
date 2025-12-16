@@ -123,4 +123,4 @@ HUGE THANKS to my colleagues at Flouze. I can't even count the number of times t
 
 #### License information:
 
-This configuration is licensed under the MIT License, so you are free to use and modify it for personal or commercial purposes. However, please note that I do not provide any warranty or support for this configuration, so use at your own risk.
+This configuration is licensed under the MIT License, so you are free to use and modify it for any personal or commercial purposes. However, please note that I do not provide any warranty or support for this configuration, so use at your own risk.
