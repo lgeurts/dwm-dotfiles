@@ -21,22 +21,27 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 - **[Ubuntu Mono Nerd Font](https://archlinux.org/packages/community/any/ttf-ubuntumono-nerd/)** & **[JetBrainsMono Font](https://archlinux.org/packages/community/any/ttf-jetbrains-mono/)** - as fonts
 - **picom** - as compositor (i use the [pijulius](https://github.com/pijulius) fork)
 
-#### Pre-equisites
+#### Pre-requisites
 
-1.   Baseline Arch Linux installed (ArchInstall)
+1.   Baseline Arch Linux installed using [ArchInstall](https://wiki.archlinux.org/title/Archinstall) and copying the configuration from the [ISO](https://archlinux.org/download/) 
 2.   At least 8 GiB of free space on the system partition
 3.   A user:
+
      ```
      useradd -m username
      passwd username
      usermod -aG wheel,video,audio,storage username
      ```
+
      In order to have root privileges we need sudo. Edit /etc/sudoers with nano or vim by uncommenting this line:
+
      ```
      ## Uncomment to allow members of group wheel to execute any command
         '# %wheel ALL=(ALL) ALL'
      ```
-       
+  
+4.   A working internet connection     
+ 
 #### Installation
 
 1.  Install the `git` package:
