@@ -123,4 +123,4 @@ Huge thanks to my colleagues at Flouze. I can't even count the number of times t
 
 #### License information:
 
-This configuration is MIT licensed. However, note that I do not provide any warranty or support for this configuration, so use at your own risk.
+This configuration is MIT licensed. Note that I do not provide any warranty/support for this configuration, so use at your own risk.
