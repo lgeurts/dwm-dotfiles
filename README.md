@@ -2,8 +2,6 @@
 
 [![AUR](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/lgeurts/dwm-dotfiles/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
- Arch Linux & Suckless DWM
-
 ### My all in one suckless tools (dwm, dmenu, st, slstatus, slock)
 
 ![Alt text](/img/s1.png?raw=true "First image")
