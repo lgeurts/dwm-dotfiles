@@ -120,3 +120,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 #### Credits:
 
 HUGE THANKS to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost.
+
+#### License information:
+
+This configuration is licensed under the MIT License, so you are free to use and modify it for personal or commercial purposes. However, please note that I do not provide any warranty or support for this configuration, so use at your own risk.
