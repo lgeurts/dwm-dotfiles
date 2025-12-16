@@ -1,11 +1,10 @@
 # Read Me
 
+[![AUR](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/lgeurts/dwm-dotfiles/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+
 This repository comprises an extensive assortment of modular scripts and configuration files built upon ArchLinux and dwm. Its objective is to deliver a stable, clutter-free, and ergonomic desktop environment tailored for advanced users.
 
 All updates and enhancements aim to avoid unnecessary breaking changes, aligning closely with the rolling-release nature of the underlying system, while requiring minimal maintenance.
-
-[![AUR](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/lgeurts/dwm-dotfiles/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-
 ### My all in one patched suckless tools (dwm, dmenu, st, slstatus, slock)
 
 ![Alt text](/img/s1.png?raw=true "First image")
