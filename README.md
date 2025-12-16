@@ -21,6 +21,12 @@ All updates and enhancements aim to avoid breaking changes, aligning closely wit
 - **[Ubuntu Mono Nerd Font](https://archlinux.org/packages/community/any/ttf-ubuntumono-nerd/)** & **[JetBrainsMono Font](https://archlinux.org/packages/community/any/ttf-jetbrains-mono/)** - as fonts
 - **picom** - as compositor (i use the [pijulius](https://github.com/pijulius) fork)
 
+#### Pre-equisites
+
+    Base Arch Linux installed (ArchInstall)
+    At least 8 GiB of free space on the system partition
+    A user account with sudo privileges
+
 #### Installation
 
 1.  Install the `git` package:
