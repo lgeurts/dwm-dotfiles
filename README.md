@@ -25,7 +25,9 @@ All updates and enhancements aim to avoid breaking changes, aligning closely wit
 
     Baseline Arch Linux installed (ArchInstall)
     At least 8 GiB of free space on the system partition
-    A user account with sudo privileges
+    In order to have root privileges we need sudo. Edit /etc/sudoers with nano or vim by uncommenting this line:
+    ## Uncomment to allow members of group wheel to execute any command
+        # %wheel ALL=(ALL) ALL
 
 #### Installation
 
