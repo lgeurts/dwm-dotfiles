@@ -11,7 +11,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 ![Alt text](/img/s2.png?raw=true "Second image")
 ![Alt text](/img/s3.png?raw=true "Third image")
 
-#### What I use:
+#### What I use
 
 - **Feh** as wallpapers manager
 - **dunst** as notifications manager (includes config)
@@ -21,7 +21,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 - **[Ubuntu Mono Nerd Font](https://archlinux.org/packages/community/any/ttf-ubuntumono-nerd/)** & **[JetBrainsMono Font](https://archlinux.org/packages/community/any/ttf-jetbrains-mono/)** - as fonts
 - **picom** - as compositor (i use the [pijulius](https://github.com/pijulius) fork)
 
-#### Pre-requisites
+#### Pre-requisites:
 
 1.   Baseline Arch Linux installed using [ArchInstall](https://wiki.archlinux.org/title/Archinstall) and copying the network configuration from the [ISO](https://archlinux.org/download/) 
 2.   At least 8 GiB of free space on the system partition
@@ -42,7 +42,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
   
 4.   A working internet connection     
  
-#### Installation
+#### Installation:
 
 1.  Install the `git` package:
 
@@ -116,3 +116,10 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 - ***capscolor***
 - ***message***
+
+#### Credits:
+
+HUGE THANKS to my colleagues at Flouze.. I can't even count the number of times he has helped me :v
+
+HUGE THANKS to my colleagues at Flouze. I can't even count the number of times he has helped me
+
