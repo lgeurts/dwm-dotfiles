@@ -60,7 +60,7 @@
 
 - ***alwayscenter***
 - ***attachbottom***
-- **autostart**
+- ****autostart****
 - **pertag**
 - **preserveonrestart**
 - **restartsig**
