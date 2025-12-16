@@ -23,7 +23,7 @@ All updates and enhancements aim to avoid breaking changes, aligning closely wit
 
 #### Pre-equisites
 
-    Base Arch Linux installed (ArchInstall)
+    Baseline Arch Linux installed (ArchInstall)
     At least 8 GiB of free space on the system partition
     A user account with sudo privileges
 
