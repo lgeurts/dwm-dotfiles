@@ -41,7 +41,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
         '# %wheel ALL=(ALL) ALL'
      ```   
  
- #### Installation:
+#### Installation:
 
 1.  Install the `git` package:
 
@@ -120,6 +120,6 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost.
 
-#### License information:
+#### Repo status information:
 
-This configuration is MIT licensed. Please note that I do not provide any warranty or support for this configuration, so use at your own risk.
+As you can see this repo is not yet full finished/tested.This configuration is MIT licensed. Please note that I do not provide any warranty or support for this configuration, so use at your own risk.
