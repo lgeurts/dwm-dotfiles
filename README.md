@@ -118,8 +118,4 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 #### Credits:
 
-Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost.
-
-#### Current repo status:
-
-This repo is at the moment of writing not fully tested (WIP). Note that if you decide to use this configuration we are not liable for any damage, nor will we provide any warranty or support. Use at your own risk.
+Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost (read clueless).
