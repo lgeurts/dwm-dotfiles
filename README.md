@@ -39,11 +39,9 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
      ```
      ## Uncomment to allow members of group wheel to execute any command
         '# %wheel ALL=(ALL) ALL'
-     ```
-  
-4.   A working internet connection     
+     ```   
  
-#### Installation:
+ #### Installation:
 
 1.  Install the `git` package:
 
