@@ -46,7 +46,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 1.  Install the `git` package:
 
     ```
-    sudo pacman -Sy git
+    sudo pacman -Syu git
     ```
 
 2.  Copy this repository to your home folder:
@@ -122,4 +122,4 @@ Huge thanks to my colleagues at Flouze. I can't even count the number of times t
 
 #### Repo status information:
 
-As you can see this repo is not yet full finished/tested.This configuration is MIT licensed. Please note that I do not provide any warranty or support for this configuration, so use at your own risk.
+As you can see this repo is not yet fully tested (WIP). Please note that I (we) do not provide any warranty or support for this configuration, so use at your own risk.
