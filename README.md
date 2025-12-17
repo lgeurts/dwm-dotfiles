@@ -8,7 +8,7 @@ This repository comprises an assortment of modular scripts and configuration fil
 All updates and enhancements aim to avoid breaking changes, aligning with the rolling-release nature of the underlying system, while requiring minimal maintenance.
 ### My all in one patched suckless tools (dwm, dmenu, st, slstatus, slock)
 
-![Alt text](dwm-dotfiles/imgages/17-12-2025-01.png?raw=true "First image")
+![Alt text](https://github.com/lgeurts/dwm-dotfiles/imgages/17-12-2025-01.png?raw=true "First image")
 ![Alt text](/img/s2.png?raw=true "Second image")
 ![Alt text](/img/s3.png?raw=true "Third image")
 
