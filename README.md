@@ -24,7 +24,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 #### Pre-requisites:
 
-1.   Baseline Arch Linux installed using [ArchInstall](https://wiki.archlinux.org/title/Archinstall) and copying the network configuration from the [ISO](https://archlinux.org/download/) 
+1.   Baseline Arch Linux installed using [Archinstall](https://wiki.archlinux.org/title/Archinstall) and a copy of the network configuration from the [ISO](https://archlinux.org/download/) 
 2.   At least 8 GiB of free space on the system partition
 3.   A user:
 
@@ -120,6 +120,6 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost.
 
-#### Repo status information:
+#### Current repo status:
 
-As you can see this repo is not yet fully tested (WIP). Please note that I (we) do not provide any warranty or support for this configuration, so use at your own risk.
+This repo is at the moment of writing not fully tested (WIP). Note that if you decide to use this configuration we are not liable for any damage, nor will we provide any warranty or support. Use at your own risk.
