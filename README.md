@@ -42,7 +42,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
     
      ```
      ## Uncomment to allow members of group wheel to execute any command
-        '# %wheel ALL=(ALL) ALL'
+        '# %wheel ALL=(ALL) ALL with password'
      ```   
  
 #### Installation:
