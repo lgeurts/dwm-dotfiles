@@ -32,7 +32,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
      usermod -aG wheel,video,audio,storage username
      ```
 
-     In order to have root privileges we need sudo. Edit /etc/sudoers with nano or vim by uncommenting this line:
+     In order to have root privileges we need sudo. Edit /etc/sudoers with micro or vim by uncommenting this line:
 
      ```
      ## Uncomment to allow members of group wheel to execute any command
@@ -110,7 +110,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 #### Further configuration:
 
-Edit .config/dwm/config.h and change apps accordingly your needs. For example, I have helium-browser-bin qutebrowser obtanium lazy-vim, signal etc. installed. Replace with your preferred apps, test, and after copy config.h to config.def.h.
+Edit .config/dwm/config.h and change apps accordingly your need. For example, I have helium-browser-bin qutebrowser obtanium lazy-vim, signal etc. installed. Replace with your preferred apps, test, and after copy config.h to config.def.h.
 
 I also added my .bashrc amd .bash_aliases files. Check them out for further enhancements.
 
