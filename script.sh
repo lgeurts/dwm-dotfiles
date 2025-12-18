@@ -29,6 +29,7 @@ cp -R dwm-dotfiles/dunst-icons $HOME/.local/share/icons/dunst
 
 touch .xinitrc
 echo "exec dwm" >.xinitrc
+echo "feh --bg-scale ~/Pictures/Wallpapers/002.png" >.xinitrc
 
 touch .bashrc
 echo "eval $(fzf --bash)" >.bashrc
