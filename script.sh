@@ -47,7 +47,7 @@ cd "$HOME" || exit
 mkdir .dwm
 cp "$HOME"/dwm-dotfiles/autostart.sh "$HOME"/.dwm/
 mkdir Pictures
-cp -r "$HOME"/dwm-dotfiles/Wallpapers "$HOME"/Pictures/
+cp -r "$HOME"/dwm-dotfiles/assets/Wallpapers "$HOME"/Pictures/
 
 cd "$HOME/.config" || exit
 sudo git clone https://github.com/fdev31/picom.git
