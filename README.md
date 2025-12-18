@@ -116,4 +116,5 @@ I also added my .bashrc amd .bash_aliases files. Check them out for further enha
 
 #### Credits:
 
-Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost (read clueless). <3
+Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost (read clueless). 
+<3
