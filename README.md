@@ -110,7 +110,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 
 #### Further configuration:
 
-Edit .config/dwm/config.h and change apps accordingly your needs. For example, I use helium-browser-bin qutebrowser obtanium lazy-vim, signal etc. Replace by your preferred apps, test, and after copy config.h to config.def.h. 
+Edit .config/dwm/config.h and change apps accordingly your needs. For example, I have helium-browser-bin qutebrowser obtanium lazy-vim, signal etc. installed. Replace with your preferred apps, test, and after copy config.h to config.def.h. 
 
 #### Credits:
 
