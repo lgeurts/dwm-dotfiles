@@ -32,8 +32,14 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
      usermod -aG wheel,video,audio,storage username
      ```
 
-     In order to have root privileges we need sudo. Edit /etc/sudoers with micro or vim by uncommenting this line:
+     In order to have root privileges we need sudo. First download vi: 
 
+     ```     
+     sudo pacman -S vi
+     ```
+     
+     Now edit /etc/sudoers with visudo to uncomment this line:     
+    
      ```
      ## Uncomment to allow members of group wheel to execute any command
         '# %wheel ALL=(ALL) ALL'
