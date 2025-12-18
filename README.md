@@ -32,7 +32,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
      usermod -aG wheel,video,audio,storage username
      ```
 
-     In order to have root privileges we need sudo. First download vi: 
+     In order to have root privileges our user needs sudo. First download vi: 
 
      ```     
      sudo pacman -S vi
