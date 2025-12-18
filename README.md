@@ -9,7 +9,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 ### My all in one patched suckless tools (dwm, dmenu, st, slstatus, slock)
 
 ![Clean](https://github.com/lgeurts/readme.md/dwm-dotfiles/assets/17-12-2025-01.png)
-![Light](https://github.com/lgeurts/dwm-dotfiles/assets/17-12-2025-02.png)
+![Light](https://github.com/lgeurts/readme.md/dwm-dotfiles/assets/17-12-2025-02.png)
 ![Busy](/img/s3.png?raw=true "Third image")
 ![Clean](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-clean.png)
 #### What I use
