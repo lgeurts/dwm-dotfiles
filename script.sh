@@ -30,6 +30,10 @@ cp -R dwm-dotfiles/dunst-icons $HOME/.local/share/icons/dunst
 touch .xinitrc
 echo "exec dwm" >.xinitrc
 
+touch .bashrc
+echo "eval $(fzf --bash)" >.bashrc
+echo "eval $(starship init bash)" >.bashrc 
+
 cd "$HOME"/.config/suckless/st || exit
 sudo make clean install
 cd "$HOME"/.config/suckless/dwm || exit
