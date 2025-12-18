@@ -71,12 +71,6 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
     Type=Application
     ```
 
-#### Feh directory (for backgrounds):
-
-```
-/home/{user_name}/Pictures/Wallpapers
-```
-
 #### DWM Patches:
 
 - ***alwayscenter***
