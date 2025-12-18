@@ -12,7 +12,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 #### What I use
 
 - **Feh** as wallpaper manager
-- **dunst** as notifications manager (includes config)
+- **dunst** as notification manager (includes config)
 - **flameshot** for screenshots
 - **brightnessctl** and **pamixer** for volume and brightness control
 - **playerctl** for multimedia control
