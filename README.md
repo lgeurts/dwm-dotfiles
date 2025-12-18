@@ -70,7 +70,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
     Exec=dwm
     Type=Application
     ```
-
+$\color{red}{\textsf{
 #### DWM Patches:
 
 - ***alwayscenter***
@@ -86,7 +86,7 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 - ***titlecolor***
 - ***vanitygaps***
 - ***winicon***
-
+}}$
 #### DMenu Patches:
 
 - ***border***
