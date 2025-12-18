@@ -108,6 +108,10 @@ All updates and enhancements aim to avoid breaking changes, aligning with the ro
 - ***capscolor***
 - ***message***
 
+#### Further configuration:
+
+Edit .config/dwm/config.h and change apps accordingly your needs. For example, I use helium-browser-bin qutebrowser nvim (lazy-vim), signal, obtanium etc.. Replace by your preferred apps, test, and after copy config.h to config.def.h. 
+
 #### Credits:
 
 Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was lost (read clueless).
