@@ -1,20 +1,21 @@
 **Overview of most important keys. For a deep dive, see dwm's config.h.** 
 
-| Type | Modifier | Key | Function |
-| ----------- | ----------- | ----------- | ----------- | 
+| Type | Modifier | Key | Function | App |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Basic | win | b | toggle the top bar |
-|       | win | q | kill terminal client (ST) |
-|       | win | enter| launch terminal |
+|       | win | q | kill terminal client | st |
+|       | win | enter| launch terminal client | st |
 |       | win + shift | enter | launch dmenu |
-|       | alt | s | take screenshot (flameshot) |
-|       | alt + ctrl | c | choose and edit dotfiles in default editor |
-|       | alt + ctrl | m | open bookmark in browser |
-|       | alt + ctrl | j | start filemanager (joshuto) |
-|       | alt + ctrl | b | start browser (helium-browser) |
-|       | alt + ctrl | t | start secure messenger (signal-desktop)|
-|       | alt + ctrl | p | start lxde filemanager (pcmanfm) |
-|       | alt + ctrl | o | start notes app (obsidian) |
-|       | alt + ctrl | del | open system powermenu |
+|       | alt | s | take screenshot | flameshot |
+|       | alt + ctrl | c | choose and edit dotfiles in default editor | 
+|       | alt + ctrl | b | launch default browser | helium-browser |
+|       | alt + ctrl | m | open bookmark in default browser | helium-browser | 
+|       | alt + ctrl | j | launch filemanager | joshuto |
+|       | alt + ctrl | t | launch  secure messenger | signal-desktop |
+|       | alt + ctrl | n | launch mail client | neomutt |
+|       | alt + ctrl | p | launch lxde filemanager | pcmanfm |
+|       | alt + ctrl | o | launch notes app | obsidian |
+|       | alt + ctrl | del | launch system powermenu | |
 | Navigation | 
 |            | 
 |            | 
