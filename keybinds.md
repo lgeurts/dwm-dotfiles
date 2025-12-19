@@ -4,10 +4,10 @@ KKK**Overview of most important keys. For a deep dive, see dwm's config.h.**
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Basic | alt | s | take screenshot | flameshot |
 |       | win | b | toggle the top bar | |
-|       | win | q | kill terminal client | st |
-|       | win | enter| launch terminal client | st |
-|       | win + shift | enter | launch dmenu |
-|       | alt + ctrl | c | choose and edit dotfiles in default editor | 
+|       | win | q | kill terminal client | |
+|       | win | enter| launch terminal client | |
+|       | win + shift | enter | launch dmenu | |
+|       | alt + ctrl | c | choose and edit dotfiles in default editor | |
 |       | alt + ctrl | b | launch default browser | helium-browser |
 |       | alt + ctrl | m | open bookmark in default browser | helium-browser | 
 |       | alt + ctrl | j | launch filemanager | joshuto |
