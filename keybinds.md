@@ -1,4 +1,4 @@
-Z**Overview of most important dwm keybinds. For a deep dive, see dwm's config.h.** 
+**My dwm keybinds overview. For a deep dive, see dwm's config.h.** 
 
 | Type | Modifier | Key | Function | App |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
@@ -30,7 +30,10 @@ Z**Overview of most important dwm keybinds. For a deep dive, see dwm's config.h.
 |        | super | f | set window layout 2 | |
 |        | super | m | set window layout 3 | |
 |        | super | space | toggle previous layout | |
-| Floating | super | h / l | resize window left / right | | 
+| Floating | super | mmb | make individual window float | | 
+|          | super | rmb | resize floating window | |
+|          | super | lmb | move floating window | |
+|          | super | h / l | resize window left / right | | 
 |          | super + shift | h / l | resize window up and down
 |          | super + shift | o | reset vertical window size | |
 |          | super + shift | space | make individual window float | |
