@@ -1,12 +1,11 @@
-**Overview of most important dwm keybinds. For a deep dive, see dwm's config.h.** 
+Z**Overview of most important dwm keybinds. For a deep dive, see dwm's config.h.** 
 
 | Type | Modifier | Key | Function | App |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Basic | alt | s | take screenshot | flameshot |
 |       | super | b | toggle the top bar | |
 |       | super | q | kill terminal client | |
-|       | super + shift | q | quit dwm cleanly | |
-|       | super + shift | z | quit dwm | |
+|       | super + shift | q | quit dwm | |
 |       | super + shift | ctrl | restart dwm | |
 |       | super + shift | enter | launch dmenu | |
 |       | super | enter| launch terminal client | |
