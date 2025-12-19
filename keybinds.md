@@ -8,8 +8,8 @@ KKK**Overview of most important keys. For a deep dive, see dwm's config.h.**
 |       | win | enter| launch terminal client | |
 |       | win + shift | enter | launch dmenu | |
 |       | alt + ctrl | c | choose and edit dotfiles in default editor | |
-|       | alt + ctrl | b | launch default browser | helium-browser |
 |       | alt + ctrl | m | open bookmark in default browser | helium-browser | 
+|       | alt + ctrl | b | launch default browser | helium-browser |
 |       | alt + ctrl | j | launch filemanager | joshuto |
 |       | alt + ctrl | t | launch  secure messenger | signal-desktop |
 |       | alt + ctrl | n | launch mail client | neomutt |
