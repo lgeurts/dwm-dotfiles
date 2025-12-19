@@ -24,7 +24,7 @@
 | alt + ctrl | t | start signal messenger |
 | alt + ctrl | p | start pcmanfm (lxde) filemanager |
 | alt + ctrl | o | start obsidian notes |
-| alt + ctrl | return | kill desktop session |
+| alt + ctrl | return | forcefully quit the desktop  |
 
 
 
