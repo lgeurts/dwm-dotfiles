@@ -16,13 +16,13 @@ MODKEY = enter
 | win + shift | enter | open dmenu |
 | win + shift | space | toggle floating of windows
 | alt | s | take a picture with flameshot |
-| alt + ctrl | c | choose and edit dotfiles in nvim (e.g. nvim is my default, yours can be different |
-| alt + ctrl | m | create a bookmark in browser |
+| alt + ctrl | c | choose and edit dotfiles in your default editor |
+| alt + ctrl | m | create a bookmark in your browser |
 | alt + ctrl | j | start joshuto filemanager |
 | alt + ctrl | del | open the powermenu |
 | alt + ctrl | b | start helium browser |
 | alt + ctrl | t | start signal messenger |
-| alt + ctrl | p | start pcmanfm lxde file manager |
+| alt + ctrl | p | start pcmanfm (lxde) filemanager |
 | alt + ctrl | o | start obsidian notes |
 
 
