@@ -1,4 +1,4 @@
-**Overview of most importannt keys. For a deep dive, see dwm's config.h.** 
+**Overview of most important keys. For a deep dive, see dwm's config.h.** 
 
 | Modifier | Key | Function | Argument |
 | ----------- | ----------- | ----------- | ----------- |
@@ -6,15 +6,21 @@
 | win | enter| start st terminal |
 | win | b | toggle the top bar |
 | alt + ctrl | c | edit dotfiles |
+| alt + ctrl | m | create a bookmark in browser |
+| alt + ctrl | j | start joshuto filemanager |
+| alt + ctrl | del | open the powermenu |
+| alt | s | take a picture with flameshot |
+| alt + ctrl | b | start helium browser |
+| alt + ctrl | t | start signal messenger |
+| alt + ctrl | p | start pcmanfm lxde file manager |
+| alt + ctrl | o | start obsidian notes |
+
+MODKEY2 = alt
+MODKEY = enter
 
 
 
 
-	{ MOD2KEY|ControlMask, 		    XK_c, 			             spawn, 	        {.v = configscript} },
-	{ MOD2KEY|ControlMask, 		    XK_m, 			             spawn, 	        {.v = browserbookmarksscript} },
-	{ MOD2KEY,                      XK_s,                        spawn,      		{.v = flameshot} },
-	{ MOD2KEY|ControlMask,          XK_j,                        spawn,             {.v = joshuto} },
-	{ MOD2KEY|ControlMask, 		    XK_Delete, 			         spawn, 	        {.v = powermenu} },
 	{ MOD2KEY|ControlMask,          XK_b,                        spawn,             SHCMD("helium-browser")},
 	{ MOD2KEY|ControlMask,          XK_t,                        spawn,             SHCMD("signal-desktop")},
 	{ MOD2KEY|ControlMask,          XK_h,                        spawn,             SHCMD("")},
