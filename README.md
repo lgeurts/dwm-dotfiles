@@ -3,7 +3,7 @@
 [![AUR](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/lgeurts/dwm-dotfiles/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
-This repository comprises an assortment of scripts and configuration files built upon **[Arch Linux](archlinux.org)** & **[Suckless](suckless.org) dwm**. Its objective is to deliver a stable, clutter-free, and ergonomic desktop environment tailored for advanced users.
+This repository comprises an assortment of scripts and configuration files built upon **[Arch Linux](archlinux.org)** & **[Suckless](suckless.org)** dwm. Its objective is to deliver a stable, clutter-free, and ergonomic desktop environment tailored for advanced users.
 
 All updates and enhancements aim to avoid breaking changes, aligning with the rolling-release nature of the system, while requiring minimal maintenance.
 
