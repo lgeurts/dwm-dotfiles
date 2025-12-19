@@ -2,9 +2,9 @@
 
 | Modifier | Key | Function | Argument |
 | ----------- | ----------- | ----------- | ----------- |
-| win + shift | enter | dmenu |
-| win | enter| st terminal |
-| win | b | toggle top bar |
+| win + shift | enter | open dmenu |
+| win | enter| start st terminal |
+| win | b | toggle the top bar |
 | alt + ctrl | c | edit dotfiles |
 
 
