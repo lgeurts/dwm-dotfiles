@@ -18,7 +18,6 @@
 |       | alt + ctrl | o | launch notes app | obsidian |
 |       | alt + ctrl | del | launch system powermenu | |
 |       | alt + ctrl | return | forcefully quit the desktop | |
-
 | Navigation | super + shift | k | switch between windows | | 
 | Layout | super | f | floating mode | |
 |        | super | t | tiled mode | |
@@ -28,7 +27,6 @@
 |        | super | f | set window layout 2 | |
 |        | super | m | set window layout 3 | |
 |        | super | space | toggle previous layout | |
-
 | Floating | super | z | zoom | |
 |          | super + shift | space | make individual window float | |
 |          | super + shift | k | switch focus | |
