@@ -12,10 +12,9 @@
 | win | space | set window layout |
 | win | enter| start st terminal |
 | win + shift | enter | open dmenu |
-| win + shift | escape | quit the desktop |
+| win + shift | escape | forcefully quit the desktop |
 | win + shift | space | toggle floating of windows |
 | win + shift | k | switch between windows |
-| win + ctrl + shift | q | quit |
 | alt | s | take a picture with flameshot |
 | alt + ctrl | c | choose and edit dotfiles in your default editor |
 | alt + ctrl | m | open a bookmark in your browser |
