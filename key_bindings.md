@@ -1,4 +1,4 @@
-**Overview of most important keys. For a deep dive, see dwm's config.h.** 
+KKK**Overview of most important keys. For a deep dive, see dwm's config.h.** 
 
 | Type | Modifier | Key | Function | App |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
@@ -16,9 +16,9 @@
 |       | alt + ctrl | p | launch lxde filemanager | pcmanfm |
 |       | alt + ctrl | o | launch notes app | obsidian |
 |       | alt + ctrl | del | launch system powermenu | |
-| Navigation | | | | | 
-|            | | | | |
-|            | | | | |
+|       | alt + ctrl | return | forcefully quit the desktop | |
+|       | win + shift | q | quit dwm cleanly | |
+| Navigation | win + shift | k | switch between windows | | 
 | Layout | win | f | floating mode | |
 |        | win | t | tiled mode | |
 |        | win | m | monocle mode (single window fullscreen) | |
@@ -27,15 +27,16 @@
 |        | win | f | set window layout 2 | |
 |        | win | m | set window layout 3 | |
 |        | win | space | toggle previous layout | |
-| Floating | win + shift | space | make individual window float | |
-|          
-| win + shift | escape | forcefully quit the desktop |
-
-| win + shift | k | switch between windows |
+| Floating | win | z | zoom | |
+|          | win + shift | space | make individual window float | |
+|          | win + shift | k | switch focus | |
 
 
-| alt + ctrl | return | forcefully quit the desktop  |
-| win | z | zoom |
+
+
+
+
+
 
 
 
