@@ -5,20 +5,11 @@
 | win + shift | enter | dmenu |
 | win | enter| st terminal |
 | win | b | toggle top bar |
+| alt + ctrl | c | edit dotfiles |
 
 
 
 
-	
-	{ MODKEY,                       XK_b,                        togglebar,         {0} },
-	{ 0, 			                XF86XK_MonBrightnessUp, 	 spawn, 	        {.v = brupcmd} },
-	{ 0, 			                XF86XK_MonBrightnessDown, 	 spawn,           	{.v = brdowncmd} },
-	{ 0, 				            XF86XK_AudioLowerVolume, 	 spawn,           	{.v = downvol} },
-	{ 0, 				            XF86XK_AudioRaiseVolume, 	 spawn,           	{.v = upvol} },
-	{ 0, 				            XF86XK_AudioMute, 		     spawn,           	{.v = mutevol} },
-	{ 0, 				            XF86XK_AudioPrev,			 spawn,           	{.v = prevtrack} },
-	{ 0, 				            XF86XK_AudioNext,			 spawn,           	{.v = nexttrack} },
-	{ 0, 				            XF86XK_AudioPlay,			 spawn,           	{.v = playpausetrack} },
 	{ MOD2KEY|ControlMask, 		    XK_c, 			             spawn, 	        {.v = configscript} },
 	{ MOD2KEY|ControlMask, 		    XK_m, 			             spawn, 	        {.v = browserbookmarksscript} },
 	{ MOD2KEY,                      XK_s,                        spawn,      		{.v = flameshot} },
