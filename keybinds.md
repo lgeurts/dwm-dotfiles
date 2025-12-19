@@ -6,6 +6,8 @@
 |       | super | b | toggle the top bar | |
 |       | super | q | kill terminal client | |
 |       | super + shift | q | quit dwm cleanly | |
+|       | super + shift | z | quit dwm | |
+|       | super + shift | ctrl | restart dwm | |
 |       | super + shift | enter | launch dmenu | |
 |       | super | enter| launch terminal client | |
 |       | alt + ctrl | c | choose and edit dotfiles in default editor | |
@@ -18,8 +20,9 @@
 |       | alt + ctrl | o | launch notes app | obsidian |
 |       | alt + ctrl | del | launch system powermenu | |
 |       | alt + ctrl | return | forcefully quit the desktop | |
-| Navigation | super + shift | k | rotate windows | | 
-|            | super | j/k | set focus on window | |
+| Navigation | super | j / k | focus stack up and down between windows | |
+|            | super + shift | s | switch to most recent window | |
+|            | super + shift | j / k | move window up and down the stack | | 
 | Layout | super | f | floating mode | |
 |        | super | t | tiled mode | |
 |        | super | m | monocle mode (single window fullscreen) | |
@@ -28,9 +31,11 @@
 |        | super | f | set window layout 2 | |
 |        | super | m | set window layout 3 | |
 |        | super | space | toggle previous layout | |
-| Floating | super | z | zoom | |
+| Floating | super | h / l | resize window left / right | | 
+|          | super + shift | h / l | resize window up and down
+|          | super + shift | o | reset vertical window size | |
 |          | super + shift | space | make individual window float | |
-|          | super + shift | k | switch focus | |
+
 
 
 
