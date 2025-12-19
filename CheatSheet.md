@@ -18,7 +18,7 @@ MODKEY = enter
 | win + shift | space | toggle floating of windows
 | alt | s | take a picture with flameshot |
 | alt + ctrl | c | choose and edit dotfiles in your default editor |
-| alt + ctrl | m | create a bookmark in your browser |
+| alt + ctrl | m | open a bookmark in your browser |
 | alt + ctrl | j | start joshuto filemanager |
 | alt + ctrl | del | open the powermenu |
 | alt + ctrl | b | start helium browser |
