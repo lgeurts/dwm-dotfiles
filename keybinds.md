@@ -3,10 +3,11 @@
 | Type | Modifier | Key | Function | App |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Basic | alt | s | take screenshot | flameshot |
-|       | win | b | toggle the top bar | |
-|       | win | q | kill terminal client | |
-|       | win | enter| launch terminal client | |
-|       | win + shift | enter | launch dmenu | |
+|       | super | b | toggle the top bar | |
+|       | super | q | kill terminal client | |
+|       | super + shift | q | quit dwm cleanly | |
+|       | super + shift | enter | launch dmenu | |
+|       | super | enter| launch terminal client | |
 |       | alt + ctrl | c | choose and edit dotfiles in default editor | |
 |       | alt + ctrl | m | open bookmark in default browser | helium-browser | 
 |       | alt + ctrl | b | launch default browser | helium-browser |
@@ -17,19 +18,20 @@
 |       | alt + ctrl | o | launch notes app | obsidian |
 |       | alt + ctrl | del | launch system powermenu | |
 |       | alt + ctrl | return | forcefully quit the desktop | |
-|       | win + shift | q | quit dwm cleanly | |
-| Navigation | win + shift | k | switch between windows | | 
-| Layout | win | f | floating mode | |
-|        | win | t | tiled mode | |
-|        | win | m | monocle mode (single window fullscreen) | |
-|        | win | s | set window layout 0 | |
-|        | win | t | set window layout 1 | |
-|        | win | f | set window layout 2 | |
-|        | win | m | set window layout 3 | |
-|        | win | space | toggle previous layout | |
-| Floating | win | z | zoom | |
-|          | win + shift | space | make individual window float | |
-|          | win + shift | k | switch focus | |
+
+| Navigation | super + shift | k | switch between windows | | 
+| Layout | super | f | floating mode | |
+|        | super | t | tiled mode | |
+|        | super | m | monocle mode (single window fullscreen) | |
+|        | super | s | set window layout 0 | |
+|        | super | t | set window layout 1 | |
+|        | super | f | set window layout 2 | |
+|        | super | m | set window layout 3 | |
+|        | super | space | toggle previous layout | |
+
+| Floating | super | z | zoom | |
+|          | super + shift | space | make individual window float | |
+|          | super + shift | k | switch focus | |
 
 
 
