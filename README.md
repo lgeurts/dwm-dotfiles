@@ -116,7 +116,7 @@ All updates and enhancements aim to avoid big breaking changes, thus aligning wi
 
 #### Further configuration:
 
-Edit .config/dwm/config.h and change all apps accordingly your need. For example, I have helium-browser-bin qutebrowser obtanium lazy-vim, neomutt, signal etc. installed. Replace with your preferred apps, test, and after copy config.h to config.def.h.
+Edit .config/suckless/dwm/config.h and change all apps accordingly your need. For example, I have helium-browser-bin qutebrowser obtanium lazy-vim, neomutt, signal etc. installed. Replace with your preferred apps, test, and after copy config.h to config.def.h.
 
 PS. I also added .bashrc and .bash_aliases files. Check them out at your leisure.
 
