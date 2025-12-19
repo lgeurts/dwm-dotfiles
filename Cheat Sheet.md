@@ -1,3 +1,4 @@
 | Modifier | Key | Function | Argument |
 | ----------- | ----------- | ----------- | ----------- |
-| Win + Shift | Enter | | dmenu |
+| win + shift | enter | spawn | dmenu |
+| win | enter|  spawn | st terminal |
