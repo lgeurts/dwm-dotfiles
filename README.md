@@ -67,7 +67,7 @@ All updates and enhancements aim to avoid big breaking changes, thus aligning wi
     ./script.sh
     ```
 
-4.  (***Optional***) By default, the script does not check for `.desktop` files in the `xsessions` folder. When using another display manager, add a `dwm.desktop` file (see below) in the `xsessions` folder:
+4.  (***Optional***) By default, the script does not check for `.desktop` files in the `xsessions` folder. When using another display manager, place a `dwm.desktop` file (see below) in the `xsessions` folder:
 
     ```
     [Desktop Entry]
