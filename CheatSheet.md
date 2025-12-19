@@ -16,6 +16,7 @@ MODKEY = enter
 | win | enter| start st terminal |
 | win + shift | enter | open dmenu |
 | win + shift | space | toggle floating of windows
+| win + shift | k | switch between windows
 | alt | s | take a picture with flameshot |
 | alt + ctrl | c | choose and edit dotfiles in your default editor |
 | alt + ctrl | m | open a bookmark in your browser |
