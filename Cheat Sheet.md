@@ -1,3 +1,3 @@
 | Modifier | Key | Function | Argument |
 | ----------- | ----------- | ----------- | ----------- |
-| Win + Shift |
+| Win + Shift | Enter | | dmenu |
