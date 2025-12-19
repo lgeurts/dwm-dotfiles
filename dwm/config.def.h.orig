@@ -84,40 +84,40 @@ static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen win
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run","-l", "6", "-g","1","-h", "32" "-fn", dmenufont, "-shb", "#cba6f7", "-shf","#585b70", "-nhb", "#1e1e2e", "-nhf","#585b70" ,NULL }; 
 static const char *termcmd[]  = { "st", NULL };
-static const char *brupcmd[]  = { "/home/octagony/.config/suckless/dwm/scripts/brightnessnotifications.sh", "up", NULL };
-static const char *brdowncmd[]  = { "/home/octagony/.config/suckless/dwm/scripts/brightnessnotifications.sh", "down", NULL };
-static const char *upvol[]  = { "/home/octagony/.config/suckless/dwm/scripts/volumenotifications.sh", "up", NULL};
-static const char *downvol[]  =  { "/home/octagony/.config/suckless/dwm/scripts/volumenotifications.sh", "down", NULL};
-static const char *mutevol[]  = { "/home/octagony/.config/suckless/dwm/scripts/volumenotifications.sh", "mute", NULL};
+static const char *brupcmd[]  = { "/home/luge/.config/suckless/dwm/scripts/brightnessnotifications.sh", "up", NULL };
+static const char *brdowncmd[]  = { "/home/luge/.config/suckless/dwm/scripts/brightnessnotifications.sh", "down", NULL };
+static const char *upvol[]  = { "/home/luge/.config/suckless/dwm/scripts/volumenotifications.sh", "up", NULL};
+static const char *downvol[]  =  { "/home/luge/.config/suckless/dwm/scripts/volumenotifications.sh", "down", NULL};
+static const char *mutevol[]  = { "/home/luge/.config/suckless/dwm/scripts/volumenotifications.sh", "mute", NULL};
 static const char *prevtrack[]  = { "playerctl", "previous", NULL};
 static const char *nexttrack[]  = { "playerctl", "next", NULL};
 static const char *playpausetrack[]  = { "playerctl", "play-pause", NULL};
 static const char *flameshot[]  = { "flameshot", "gui", NULL };
 static const char *joshuto[]  = { "st","-e", "joshuto", NULL };
-static const char *powermenu[] = { "/home/octagony/.config/suckless/dwm/scripts/powermenu.sh", NULL};
-static const char *configscript[] = { "/home/octagony/.config/suckless/dwm/scripts/config.sh", NULL};
+static const char *powermenu[] = { "/home/luge/.config/suckless/dwm/scripts/powermenu.sh", NULL};
+static const char *configscript[] = { "/home/luge/.config/suckless/dwm/scripts/config.sh", NULL};
 
 static const Key keys[] = {
 	/* modifier                     key                          function           argument */
 	{ MODKEY|ShiftMask,             XK_Return,                   spawn,             {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return,                   spawn,             {.v = termcmd } },
 	{ MODKEY,                       XK_b,                        togglebar,         {0} },
-	{ 0, 			                     	XF86XK_MonBrightnessUp, 	   spawn, 	          {.v = brupcmd} },
-	{ 0, 			                    	XF86XK_MonBrightnessDown, 	 spawn,           	{.v = brdowncmd} },
-	{ 0, 				                    XF86XK_AudioLowerVolume, 	   spawn,           	{.v = downvol} },
-	{ 0, 				                    XF86XK_AudioRaiseVolume, 	   spawn,           	{.v = upvol} },
-	{ 0, 				                    XF86XK_AudioMute, 		       spawn,           	{.v = mutevol} },
-	{ 0, 				                    XF86XK_AudioPrev,						 spawn,           	{.v = prevtrack} },
-	{ 0, 				                    XF86XK_AudioNext,						 spawn,           	{.v = nexttrack} },
-	{ 0, 				                    XF86XK_AudioPlay,						 spawn,           	{.v = playpausetrack} },
-	{ MOD2KEY|ControlMask, 		      XK_c, 			                 spawn, 	          {.v = configscript} },
-	{ MOD2KEY,                      XK_s,                        spawn,      		   	{.v = flameshot} },
+	{ 0, 			                XF86XK_MonBrightnessUp, 	 spawn, 	        {.v = brupcmd} },
+	{ 0, 			                XF86XK_MonBrightnessDown, 	 spawn,           	{.v = brdowncmd} },
+	{ 0, 				            XF86XK_AudioLowerVolume, 	 spawn,           	{.v = downvol} },
+	{ 0, 				            XF86XK_AudioRaiseVolume, 	 spawn,           	{.v = upvol} },
+	{ 0, 				            XF86XK_AudioMute, 		     spawn,           	{.v = mutevol} },
+	{ 0, 				            XF86XK_AudioPrev,			 spawn,           	{.v = prevtrack} },
+	{ 0, 				            XF86XK_AudioNext,			 spawn,           	{.v = nexttrack} },
+	{ 0, 				            XF86XK_AudioPlay,			 spawn,           	{.v = playpausetrack} },
+	{ MOD2KEY|ControlMask, 		    XK_c, 			             spawn, 	        {.v = configscript} },
+	{ MOD2KEY,                      XK_s,                        spawn,      		{.v = flameshot} },
 	{ MOD2KEY|ControlMask,          XK_j,                        spawn,             {.v = joshuto} },
-	{ MOD2KEY|ControlMask, 		      XK_Delete, 			             spawn, 	          {.v = powermenu} },
+	{ MOD2KEY|ControlMask, 		    XK_Delete, 			         spawn, 	        {.v = powermenu} },
 	{ MOD2KEY|ControlMask,          XK_f,                        spawn,             SHCMD("firefox")},
 	{ MOD2KEY|ControlMask,          XK_t,                        spawn,             SHCMD("telegram-desktop")},
 	{ MOD2KEY|ControlMask,          XK_b,                        spawn,             SHCMD("brave")},
-	{ MOD2KEY|ControlMask,          XK_p,                				 spawn,             SHCMD("pcmanfm")},
+	{ MOD2KEY|ControlMask,          XK_p,                		 spawn,             SHCMD("pcmanfm")},
 	{ MODKEY|ShiftMask,             XK_j,                        rotatestack,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_k,                        rotatestack,       {.i = -1 } },
 	{ MODKEY,                       XK_j,                        focusstack,        {.i = +1 } },
