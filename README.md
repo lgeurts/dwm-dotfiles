@@ -8,6 +8,8 @@ This repository comprises an assortment of scripts and configuration files built
 All updates and enhancements aim to avoid big breaking changes, thus fully aligning with the rolling-release nature of the underlying operating system, while requiring less maintenance.
 
 ### My all in one patched suckless tools (dwm, dmenu, st, slstatus, slock)
+
+![clean desktop](https://github.com/lgeurts/dwm-dotfiles/blob/main/assets/17-12-2025-01.png)
 ![Busy desktop](https://github.com/lgeurts/dwm-dotfiles/blob/main/assets/19-12-2025-04.png)
 
 #### What I use
