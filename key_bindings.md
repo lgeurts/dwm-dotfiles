@@ -15,12 +15,17 @@
 |       | alt + ctrl | p | start lxde filemanager (pcmanfm) |
 |       | alt + ctrl | o | start notes app (obsidian) |
 |       | alt + ctrl | del | open system powermenu |
-| Navigation | win | i/d | increase/decrease number of windows on master |
-| win | s | set window layout 0 |
-| win | t | set window layout 1 |
-| win | f | set window layout 2 |
-| win | m | set window layout 3 |
-| win | space | set window layout |
+| Navigation | 
+|            | 
+|            | 
+| Layout | win | f | floating mode |
+|        | win | t | tiled mode |
+|        | win | m | monocle mode (single window fullscreen) |
+|        | win | s | set window layout 0 |
+|        | win | t | set window layout 1 |
+|        | win | f | set window layout 2 |
+|        | win | m | set window layout 3 |
+|        | win | space | set window layout |
 
 
 | win + shift | escape | forcefully quit the desktop |
