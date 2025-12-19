@@ -18,7 +18,7 @@ All updates and enhancements aim to avoid big breaking changes, thus aligning wi
 - **brightnessctl** and **pamixer** for volume and brightness control
 - **playerctl** for multimedia control
 - **[Ubuntu Mono Nerd Font](https://archlinux.org/packages/extra/any/ttf-ubuntu-mono-nerd/)** & **[JetBrainsMono Font](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono/)** - as fonts
-- **picom** - as compositor (i use the [pijulius](https://github.com/pijulius) fork)
+- **picom** - as compositor (I pulled the [pijulius](https://github.com/pijulius) fork)
 
 #### Pre-requisites:
 
