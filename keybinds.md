@@ -1,4 +1,4 @@
-**Overview of most important keybinds. For a deep dive, see dwm's config.h.** 
+**Overview of most important dwm keybinds. For a deep dive, see dwm's config.h.** 
 
 | Type | Modifier | Key | Function | App |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
