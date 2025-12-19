@@ -1,78 +1,39 @@
 **Overview of most important keys. For a deep dive, see dwm's config.h.** 
 
+MODKEY2 = alt
+MODKEY = enter 
 | Modifier | Key | Function | Argument |
 | ----------- | ----------- | ----------- | ----------- |
-| win + shift | enter | open dmenu |
-| win | enter| start st terminal |
 | win | b | toggle the top bar |
-| alt + ctrl | c | edit dotfiles |
+| win | z | zoom |
+| win | q | kill st terminal client
+| win | s | set window layout 0 |
+| win | t | set window layout 1 |
+| win | f | set window layout 2 |
+| win | m | set window layout 3 |
+| win | space | set window layout |
+| win | enter| start st terminal |
+| win + shift | enter | open dmenu |
+| win + shift | space | toggle floating of windows
+| alt | s | take a picture with flameshot |
+| alt + ctrl | c | choose and edit dotfiles in nvim (e.g. nvim is my default, yours can be different |
 | alt + ctrl | m | create a bookmark in browser |
 | alt + ctrl | j | start joshuto filemanager |
 | alt + ctrl | del | open the powermenu |
-| alt | s | take a picture with flameshot |
 | alt + ctrl | b | start helium browser |
 | alt + ctrl | t | start signal messenger |
 | alt + ctrl | p | start pcmanfm lxde file manager |
 | alt + ctrl | o | start obsidian notes |
 
-MODKEY2 = alt
-MODKEY = enter
 
 
 
 
-	{ MOD2KEY|ControlMask,          XK_b,                        spawn,             SHCMD("helium-browser")},
-	{ MOD2KEY|ControlMask,          XK_t,                        spawn,             SHCMD("signal-desktop")},
-	{ MOD2KEY|ControlMask,          XK_h,                        spawn,             SHCMD("")},
-	{ MOD2KEY|ControlMask,          XK_p,                		 spawn,             SHCMD("pcmanfm")},
-	{ MOD2KEY|ControlMask,          XK_o,                		 spawn,             SHCMD("obsidian")},
-	{ MODKEY|ShiftMask,             XK_j,                        rotatestack,       {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_k,                        rotatestack,       {.i = -1 } },
-	{ MODKEY,                       XK_j,                        focusstack,        {.i = +1 } },
-	{ MODKEY,                       XK_k,                        focusstack,        {.i = -1 } },
-	{ MODKEY,                       XK_i,                        incnmaster,        {.i = +1 } },
-	{ MODKEY,                       XK_d,                        incnmaster,        {.i = -1 } },
-	{ MODKEY,                       XK_h,                        setmfact,          {.f = -0.05} },
-	{ MODKEY,                       XK_l,                        setmfact,          {.f = +0.05} },
-	{ MODKEY,                       XK_z,                        zoom,              {0} },
-	{ MODKEY|MOD2KEY,               XK_u,                        incrgaps,          {.i = +1 } },
-	{ MODKEY|MOD2KEY|ShiftMask,     XK_u,                        incrgaps,          {.i = -1 } },
-	{ MODKEY|MOD2KEY,               XK_i,                        incrigaps,         {.i = +1 } },
-	{ MODKEY|MOD2KEY|ShiftMask,     XK_i,                        incrigaps,         {.i = -1 } },
-	{ MODKEY|MOD2KEY,               XK_o,                        incrogaps,         {.i = +1 } },
-	{ MODKEY|MOD2KEY|ShiftMask,     XK_o,                        incrogaps,         {.i = -1 } },
-	{ MODKEY|MOD2KEY,               XK_6,                        incrihgaps,        {.i = +1 } },
-	{ MODKEY|MOD2KEY|ShiftMask,     XK_6,                        incrihgaps,        {.i = -1 } },
-	{ MODKEY|MOD2KEY,               XK_7,                        incrivgaps,        {.i = +1 } },
-	{ MODKEY|MOD2KEY|ShiftMask,     XK_7,                        incrivgaps,        {.i = -1 } },
-	{ MODKEY|MOD2KEY,               XK_8,                        incrohgaps,        {.i = +1 } },
-	{ MODKEY|MOD2KEY|ShiftMask,     XK_8,                        incrohgaps,        {.i = -1 } },
-	{ MODKEY|MOD2KEY,               XK_9,                        incrovgaps,        {.i = +1 } },
-	{ MODKEY|MOD2KEY|ShiftMask,     XK_9,                        incrovgaps,        {.i = -1 } },
-	{ MODKEY|MOD2KEY,               XK_0,                        togglegaps,        {0} },
-	{ MODKEY|MOD2KEY|ShiftMask,     XK_0,                        defaultgaps,       {0} },
-	{ MODKEY,                       XK_Tab,                      view,              {0} },
-	{ MODKEY,                       XK_q,                        killclient,        {0} },
-	{ MODKEY,                       XK_s,                        setlayout,         {.v = &layouts[0]} },
-	{ MODKEY,                       XK_t,                        setlayout,         {.v = &layouts[1]} },
-	{ MODKEY,                       XK_f,                        setlayout,         {.v = &layouts[2]} },
-	{ MODKEY,                       XK_m,                        setlayout,         {.v = &layouts[3]} },
-	{ MODKEY,                       XK_space,                    setlayout,         {0} },
-	{ MODKEY|ShiftMask,             XK_space,                    togglefloating,    {0} },
-	{ MODKEY,                       XK_0,                        view,              {.ui = ~0 } },
-	{ MODKEY|ShiftMask,             XK_0,                        tag,               {.ui = ~0 } },
-	{ MODKEY,                       XK_comma,                    focusmon,          {.i = -1 } },
-	{ MODKEY,                       XK_period,                   focusmon,          {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_comma,                    tagmon,            {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_period,                   tagmon,            {.i = +1 } },
-	TAGKEYS(                        XK_1,                                           0)
-	TAGKEYS(                        XK_2,                                           1)
-	TAGKEYS(                        XK_3,                                           2)
-	TAGKEYS(                        XK_4,                                           3)
-	TAGKEYS(                        XK_5,                                           4)
-	TAGKEYS(                        XK_6,                                           5)
-	TAGKEYS(                        XK_7,                                           6)
-	TAGKEYS(                        XK_8,                                           7)
-	TAGKEYS(                        XK_9,                                           8)
+
+
+
+
+
+
 	{ MODKEY|ShiftMask,             XK_Escape, quit,                                {0} },
 	{ MODKEY|ControlMask|ShiftMask, XK_q,      quit,                                {1} }, 
