@@ -1,8 +1,5 @@
 **Overview of most important keys. For a deep dive, see dwm's config.h.** 
 
-MODKEY2 = alt
-MODKEY = enter 
-
 | Modifier | Key | Function |
 | ----------- | ----------- | ----------- | 
 | win | b | toggle the top bar |
