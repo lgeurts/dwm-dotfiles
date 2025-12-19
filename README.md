@@ -5,7 +5,7 @@
 
 This repository comprises an assortment of my scripts and configuration files built upon [Arch Linux](https://archlinux.org) & [Suckless](https://suckless.org) dwm. Its objective is to deliver a stable, clutter-free, and ergonomic desktop environment tailored for advanced users.
 
-All updates and enhancements aim to avoid breaking changes, thus aligning with the rolling-release nature of the underlying system, while requiring minimal maintenance.
+All my updates and enhancements aim to avoid breaking changes, thus aligning with the rolling-release nature of the underlying system, while requiring minimal maintenance.
 
 ### My all in one patched suckless tools (dwm, dmenu, st, slstatus, slock)
 ![Busy desktop](https://github.com/lgeurts/dwm-dotfiles/blob/main/assets/18-12-2025-03.png)
