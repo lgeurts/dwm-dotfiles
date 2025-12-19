@@ -1,6 +1,6 @@
 **Overview of most important keys. For a deep dive, see dwm's config.h.** 
 
-| Type | Modifier | Key | |Function 
+| Type | Modifier | Key | Function |
 | ----------- | ----------- | ----------- | ----------- | 
 | basic | win | b | toggle the top bar |
 |       | win | q | kill terminal client (ST) |
