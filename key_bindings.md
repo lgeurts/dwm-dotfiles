@@ -2,11 +2,11 @@ KKK**Overview of most important keys. For a deep dive, see dwm's config.h.**
 
 | Type | Modifier | Key | Function | App |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| Basic | win | b | toggle the top bar |
+| Basic | alt | s | take screenshot | flameshot |
+|       | win | b | toggle the top bar | |
 |       | win | q | kill terminal client | st |
 |       | win | enter| launch terminal client | st |
 |       | win + shift | enter | launch dmenu |
-|       | alt | s | take screenshot | flameshot |
 |       | alt + ctrl | c | choose and edit dotfiles in default editor | 
 |       | alt + ctrl | b | launch default browser | helium-browser |
 |       | alt + ctrl | m | open bookmark in default browser | helium-browser | 
