@@ -2,8 +2,9 @@
 
 MODKEY2 = alt
 MODKEY = enter 
+
 | Modifier | Key | Function |
-| ----------- | ----------- | ----------- | ----------- |
+| ----------- | ----------- | ----------- | 
 | win | b | toggle the top bar |
 | win | z | zoom |
 | win | q | kill st terminal client
