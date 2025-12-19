@@ -20,7 +20,7 @@
 |       | alt + ctrl | del | launch system powermenu | |
 |       | alt + ctrl | return | forcefully quit the desktop | |
 | Navigation | super | j / k | focus stack up and down between windows | |
-|            | super + shift | j / k | move window up and down the stack | | 
+|            | super + shift | j / k | move (rotate) window up and down the stack | | 
 |            | super + shift | s | switch to most recent window | |
 | Layout | super | f | floating mode | |
 |        | super | t | tiled mode | |
