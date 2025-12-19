@@ -2,7 +2,7 @@
 
 | Type | Modifier | Key | Function |
 | ----------- | ----------- | ----------- | ----------- | 
-| basic | win | b | toggle the top bar |
+| Basic | win | b | toggle the top bar |
 |       | win | q | kill terminal client (ST) |
 |       | win | enter| launch terminal |
 |       | win + shift | enter | launch dmenu |
@@ -15,7 +15,7 @@
 |       | alt + ctrl | p | start lxde filemanager (pcmanfm) |
 |       | alt + ctrl | o | start notes app (obsidian) |
 |       | alt + ctrl | del | open system powermenu |
-
+| Navigation | | Win | i/d | increase/decrease number of windows on master
 | win | s | set window layout 0 |
 | win | t | set window layout 1 |
 | win | f | set window layout 2 |
