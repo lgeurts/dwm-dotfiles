@@ -122,6 +122,4 @@ PS. I also added .bashrc and .bash_aliases files. Check them out at your leisure
 
 #### Credits:
 
-Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was messing up. And a big shout-out to Mihail Rutskiy because his code lead me to try out dwm as a whole. 
-
-<3
+Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was messing up. <3
