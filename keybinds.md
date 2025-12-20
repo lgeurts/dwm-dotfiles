@@ -22,7 +22,7 @@
 |       | alt + ctrl | return | forcefully quit the desktop | |
 | Navigation | super | f | set focus on one window | |
 |            | super | j / k | focus stack up and down between windows | |
-|            | super + shift | j / k | move (rotate) window up and down the stack | | 
+|            | super + shift | j / k | move (rotate) window up and down the stack | |
 |            | super + shift | s | switch to most recent window | |
 | Layout | super | t | set window layout 1 (tiled mode) | |
 |        | super | s | set window layout 2 (floating mode) | |
