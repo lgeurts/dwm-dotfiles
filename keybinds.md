@@ -20,22 +20,19 @@
 |       | alt + ctrl | o | launch notes app | obsidian |
 |       | alt + ctrl | del | launch system powermenu | |
 |       | alt + ctrl | return | forcefully quit the desktop | |
-| Navigation | super | j / k | focus stack up and down between windows | |
+| Navigation | super | f | set focus on one window | |
+             | super | j / k | focus stack up and down between windows | |
 |            | super + shift | j / k | move (rotate) window up and down the stack | | 
 |            | super + shift | s | switch to most recent window | |
-| Layout | super | f | floating mode | |
-|        | super | t | tiled mode | |
-|        | super | m | monocle mode (single window fullscreen) | |
-|        | super | s | set window layout 0 | |
-|        | super | t | set window layout 1 | |
-|        | super | f | set window layout 2 | |
-|        | super | m | set window layout 3 | |
+| Layout | super | t | set window layout 1 (tiled mode) | |
+|        | super | s | set window layout 2 (floating mode) | |
+|        | super | m | set window layout 3 (monocle mode e.g. single window fullscreen and focused) | |
 |        | super | space | toggle previous layout | |
 | Floating | super | mmb | make individual window float | | 
 |          | super | rmb | resize floating window | |
 |          | super | lmb | move floating window | |
 |          | super | h / l | resize window left / right | | 
-|          | super + shift | h / l | resize window up and down
+|          | super + shift | h / l | resize window up / down
 |          | super + shift | o | reset vertical window size | |
 |          | super + shift | space | make individual window float | |
 
