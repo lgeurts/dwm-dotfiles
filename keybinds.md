@@ -32,7 +32,7 @@
 |          | super | rmb | resize floating window | |
 |          | super | lmb | move floating window | |
 |          | super | h / l | resize window left / right | | 
-|          | super + shift | h / l | resize window up / down
+|          | super + shift | h / l | resize window up / down | |
 |          | super + shift | o | reset vertical window size | |
 |          | super + shift | space | make individual window float | |
 
