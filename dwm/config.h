@@ -26,7 +26,7 @@ static const char dmenufont[]       = "JetBrainsMonoNL:weight=bold:size=10:antia
 static const char *colors[][3]      = {
 	[SchemeNorm] = { col_gray3, col_gray2, col_gray2 },
 	[SchemeSel]  = { col_cyan, col_gray4,  col_cyan },
-  ``[SchemeTitle]  = { col_title, col_gray4, col_gray4 },
+    [SchemeTitle]  = { col_title, col_gray4, col_gray4 },
 };
 
 /* tagging */
@@ -36,9 +36,10 @@ static const Rule rules[] = {
 	/*       class                instance     title         tags mask     isfloating   monitor */
        {   "Pcmanfm",              NULL,       NULL,         1 << 0,       1,           -1 },
        {   "helium-browser",       NULL,       NULL,         1 << 1,       0,           -1 },
+       {   "qutebrowser",          NULL,       NULL,         1 << 1,       0,           -1 },		
        {   "nvim",                 NULL,       NULL,         1 << 1,       0,           -1 },
-       {   "signal-desktop",       NULL,       NULL,         1 << 2,       0,           -1 },
-       {   "mpv",                  NULL,       NULL,         1 << 3,       1,           -1 },
+       {   "neomutt",              NULL,       NULL,         1 << 2,       1,           -1 },
+       {   "signal-desktop",       NULL,       NULL,         1 << 3,       1,           -1 },
 };
 
 /* layout(s) */
@@ -119,10 +120,10 @@ static const Key keys[] = {
 	{ MOD2KEY|ControlMask,          XK_j,                        spawn,             {.v = joshuto} },
 	{ MOD2KEY|ControlMask, 		    XK_Delete, 			         spawn, 	        {.v = powermenu} },
 	{ MOD2KEY|ControlMask,          XK_b,                        spawn,             SHCMD("helium-browser")},
-	{ MOD2KEY|ControlMask,          XK_t,                        spawn,             SHCMD("signal-desktop")},
-	{ MOD2KEY|ControlMask,          XK_h,                        spawn,             SHCMD("")},
-	{ MOD2KEY|ControlMask,          XK_p,                		 spawn,             SHCMD("pcmanfm")},
+	{ MOD2KEY|ControlMask,          XK_s,                        spawn,             SHCMD("signal-desktop")},
 	{ MOD2KEY|ControlMask,          XK_o,                		 spawn,             SHCMD("obsidian")},
+	{ MOD2KEY|ControlMask,          XK_p,                		 spawn,             SHCMD("pcmanfm")},
+	{ MOD2KEY|ControlMask,          XK_l,                		 spawn,             SHCMD("slock")},
 	{ MODKEY|ShiftMask,             XK_j,                        rotatestack,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_k,                        rotatestack,       {.i = -1 } },
 	{ MODKEY,                       XK_j,                        focusstack,        {.i = +1 } },
