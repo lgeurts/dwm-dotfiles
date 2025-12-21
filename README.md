@@ -54,7 +54,9 @@ All updates and enhancements aim to avoid big breaking changes, thus fully align
     ```
     sudo pacman -Syu git
     ```
+
 2. Install the yay aur helper (provides a seamless interface for working with official repository packages and AUR packages):
+
    ```
    git clone https://aur.archlinux.org/yay-git.git
    cd yay-git
