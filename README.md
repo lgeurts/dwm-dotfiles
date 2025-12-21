@@ -133,4 +133,6 @@ PS. I also added .bashrc and .bash_aliases files (extra). Check them out at your
 
 #### Credits:
 
-Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was messing up. <3
+Huge thanks to my colleagues at Flouze. I can't even count the number of times they have helped me when I was messing up. 
+
+<3
