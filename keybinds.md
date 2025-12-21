@@ -9,7 +9,6 @@
 |       | super + shift | ctrl | restart dwm | |
 |       | super + shift | enter | launch dmenu | |
 |       | super | enter| launch terminal client | |
-|       | ctrl + shift | pgup / pgdn | decrease or increase font size | |
 |       | alt + ctrl | c | choose and edit dotfiles in default editor | |
 |       | alt + ctrl | m | open bookmark in default browser | helium-browser | 
 |       | alt + ctrl | b | launch default browser | helium-browser |
