@@ -38,7 +38,7 @@ static const Rule rules[] = {
        {   "helium-browser",       NULL,       NULL,         1 << 1,       0,           -1 },
        {   "nvim",                 NULL,       NULL,         1 << 1,       0,           -1 },
        {   "signal-desktop",       NULL,       NULL,         1 << 2,       0,           -1 },
-       {   "mpv",                  NULL,       NULL,         1 << 3,       1,           -1 },
+       {   "spotify+player",       NULL,       NULL,         1 << 3,       1,           -1 },
 };
 
 /* layout(s) */
@@ -120,7 +120,7 @@ static const Key keys[] = {
 	{ MOD2KEY|ControlMask, 		    XK_Delete, 			         spawn, 	        {.v = powermenu} },
 	{ MOD2KEY|ControlMask,          XK_b,                        spawn,             SHCMD("helium-browser")},
 	{ MOD2KEY|ControlMask,          XK_t,                        spawn,             SHCMD("signal-desktop")},
-	{ MOD2KEY|ControlMask,          XK_h,                        spawn,             SHCMD("")},
+	{ MOD2KEY|ControlMask,          XK_l,                        spawn,             SHCMD("slock")},
 	{ MOD2KEY|ControlMask,          XK_p,                		 spawn,             SHCMD("pcmanfm")},
 	{ MOD2KEY|ControlMask,          XK_o,                		 spawn,             SHCMD("obsidian")},
 	{ MODKEY|ShiftMask,             XK_j,                        rotatestack,       {.i = +1 } },
