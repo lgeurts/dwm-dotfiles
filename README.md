@@ -54,22 +54,28 @@ All updates and enhancements aim to avoid big breaking changes, thus fully align
     ```
     sudo pacman -Syu git
     ```
+2. Install the yay aur helper (provides a seamless interface for working with official repository packages and AUR packages):
+   ```
+   git clone https://aur.archlinux.org/yay-git.git
+   cd yay-git
+   makepkg -si
+   ```
 
-2.  Copy this repository to your home folder:
+3.  Copy this repository to your home folder:
 
     ```
     cd $HOME
     sudo git clone https://github.com/lgeurts/dwm-dotfiles.git
     ```
 
-3.  Make `script.sh` executable and run it:
+4.  Make `script.sh` executable and run it:
 
     ```
     sudo chmod +x script.sh
     ./script.sh
     ```
 
-4.  (***Optional***) By default, `script.sh` does not check for `.desktop` files in the `xsessions` folder. When using another display manager, like **sddm**, place a `dwm.desktop` file (see below) in the `xsessions` folder:
+5.  (***Optional***) By default, `script.sh` does not check for `.desktop` files in the `xsessions` folder. When using another display manager, like **sddm**, place a `dwm.desktop` file (see below) in the `xsessions` folder:
 
     ```
     [Desktop Entry]
