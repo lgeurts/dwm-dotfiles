@@ -56,7 +56,7 @@ All updates and enhancements aim to avoid big breaking changes, thus fully align
     sudo pacman -Syu git
     ```
 
-2. Install the yay aur helper (provides a seamless interface for working with official repository packages and AUR packages):
+2. Install the `yay` helper (provides a seamless interface for working with official repository and AUR packages):
 
    ```
    git clone https://aur.archlinux.org/yay-git.git
@@ -129,7 +129,7 @@ All updates and enhancements aim to avoid big breaking changes, thus fully align
 
 Edit .config/suckless/dwm/config.h and change the apps according your needs. For example, I have helium-browser-bin qutebrowser obtanium lazy-vim, neomutt, signal etc. installed. Replace with your preferred apps, test, and after copy config.h to config.def.h.
 
-PS. I also added .bashrc and .bash_aliases files. Check them out at your leisure.
+PS. I also added .bashrc and .bash_aliases files (extra). Check them out at your leisure.
 
 #### Credits:
 
