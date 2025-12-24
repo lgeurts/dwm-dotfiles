@@ -37,7 +37,7 @@ static const Rule rules[] = {
        {   "Pcmanfm",              NULL,       NULL,         1 << 0,       1,           -1 },
        {   "helium-browser",       NULL,       NULL,         1 << 1,       0,           -1 },
        {   "qutebrowser",          NULL,       NULL,         1 << 1,       0,           -1 },		
-       {   "nvim",                 NULL,       NULL,         1 << 1,       0,           -1 },
+       {   "nvim",                 NULL,       NULL,         1 << 2,       0,           -1 },
        {   "ncspot",               NULL,       NULL,         1 << 2,       1,           -1 },
        {   "signal-desktop",       NULL,       NULL,         1 << 3,       1,           -1 },
 };
