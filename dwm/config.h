@@ -38,7 +38,7 @@ static const Rule rules[] = {
        {   "helium-browser",       NULL,       NULL,         1 << 1,       0,           -1 },
        {   "qutebrowser",          NULL,       NULL,         1 << 1,       0,           -1 },		
        {   "nvim",                 NULL,       NULL,         1 << 1,       0,           -1 },
-       {   "neomutt",              NULL,       NULL,         1 << 2,       1,           -1 },
+       {   "ncspot",               NULL,       NULL,         1 << 2,       1,           -1 },
        {   "signal-desktop",       NULL,       NULL,         1 << 3,       1,           -1 },
 };
 
