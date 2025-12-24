@@ -1,4 +1,4 @@
-/* user and group to drop privileges to */
+/* User and group to drop privileges to */
 static const char *user  = "luge";
 static const char *group = "wheel";
 
@@ -9,11 +9,11 @@ static const char *colorname[NUMCOLS] = {
 	[CAPS] = "red",         /* CapsLock on */
 };
 
-/* treat a cleared input like a wrong password (color) */
+/* Treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
 
 /* default message */
-static const char * message = "What do you want?";
+static const char * message = "YOU STUPID TOOK, GO AND BE NO MORE OF ANY NUISANCE!";
 
 /* text color */
 static const char * text_color = "#ffffff";
