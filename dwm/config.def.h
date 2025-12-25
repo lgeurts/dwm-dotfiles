@@ -118,7 +118,7 @@ static const Key keys[] = {
 	{ MOD2KEY|ControlMask, 		    XK_m, 			             spawn, 	        {.v = browserbookmarksscript} },
 	{ MOD2KEY,                      XK_s,                        spawn,      		{.v = flameshot} },
 	{ MOD2KEY|ControlMask,          XK_j,                        spawn,             {.v = joshuto} },
-	{ MOD2KEY|ControlMask, 		    XK_Delete, 			         spawn, 	        {.v = powermenu} },
+	{ MOD2KEY|ControlMask, 		    XK_Escape, 			         spawn, 	        {.v = powermenu} },
 	{ MOD2KEY|ControlMask,          XK_b,                        spawn,             SHCMD("helium-browser")},
 	{ MOD2KEY|ControlMask,          XK_s,                        spawn,             SHCMD("signal-desktop")},
 	{ MOD2KEY|ControlMask,          XK_o,                		 spawn,             SHCMD("obsidian")},
