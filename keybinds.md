@@ -9,15 +9,15 @@
 |       | super + shift | ctrl | restart dwm | |
 |       | super + shift | enter | launch dmenu | |
 |       | super | enter| launch terminal client | |
-|       | alt + ctrl | c | choose and edit dotfiles in default editor | |
+|       | alt + ctrl | c | choose and edit dotfiles in default editor | nvim |
 |       | alt + ctrl | m | open bookmark in default browser | helium-browser | 
 |       | alt + ctrl | b | launch default browser | helium-browser |
 |       | alt + ctrl | j | launch filemanager | joshuto |
 |       | alt + ctrl | t | launch  secure messenger | signal-desktop |
-|       | alt + ctrl | n | launch mail client | neomutt |
 |       | alt + ctrl | p | launch lxde filemanager | pcmanfm |
 |       | alt + ctrl | o | launch notes app | obsidian |
-|       | alt + ctrl | delete | launch system powermenu | |
+|       | alt + ctrl | l | lock system | slock |
+|       | alt + ctrl | escape | launch system powermenu | |
 |       | alt + ctrl | return | forcefully quit the desktop | |
 | Navigation | super | f | set focus on one window | |
 |            | super | j / k | focus stack up and down between windows | |
