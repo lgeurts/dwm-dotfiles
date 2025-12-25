@@ -13,7 +13,7 @@
 |       | alt + ctrl | m | open bookmark in default browser | helium-browser | 
 |       | alt + ctrl | b | launch default browser | helium-browser |
 |       | alt + ctrl | j | launch filemanager | joshuto |
-|       | alt + ctrl | t | launch  secure messenger | signal-desktop |
+|       | alt + ctrl | s | launch  secure messenger | signal-desktop |
 |       | alt + ctrl | p | launch lxde filemanager | pcmanfm |
 |       | alt + ctrl | o | launch notes app | obsidian |
 |       | alt + ctrl | l | lock system | slock |
