@@ -10,7 +10,7 @@ function powermenu {
 	elif [[ $selected = "Sleep" ]]; then
 		systemctl suspend	
 	elif [[ $selected = "Log-out" ]]; then
-		loginctl terminate-session
+		loginctl terminate-session $(loginctl session-status | head -n 1 | awk '{print $1}')
 	elif [[ $selected = "Cancel" ]]; then
 		return
 	fi
