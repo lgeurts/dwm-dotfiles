@@ -1,27 +1,20 @@
 #!/bin/bash
 
 options=(
-"Alacritty
+"DWM
 Dmenu
-DWM
 Dunst
-Fastfetch
-Fish
 Nvim
 St
 Slstatus
 Bash
 Zsh
-Fish
-Tmux
-Tmux Statusline")
+Starship
+Tmux")
 
-choice=$(echo -e "${options[@]}" | dmenu -c -g 1 -fn "JetBrainsMono Nerd Font" -nb '#1e1e2d' -nf "#abe9b3" -sb "#d5aeea" -sf "#1e1d2d" -shb "#cba6f7" -shf "#585b70" -nhb "#1e1e2e" -nfh "#585b70" -l 15 -h 30 -p 'Dotfiles: ')
+choice=$(echo -e "${options[@]}" | dmenu -c -g 1 -fn "JetBrainsMonoNL:weight=bold:size=10:antialias=true:hinting=true" -nb '#1e1e2d' -nf "#abe9b3" -sb "#d5aeea" -sf "#1e1d2d" -shb "#cba6f7" -shf "#585b70" -nhb "#1e1e2e" -nfh "#585b70" -l 15 -h 30 -p 'Dotfiles: ')
 
 case "$choice" in
-Alacritty)
-	choice="$HOME/.config/alacritty/"
-  ;;
 DWM)
 	choice="$HOME/.config/suckless/dwm/"
   ;;
@@ -30,12 +23,6 @@ Dmenu)
   ;;
 Dunst)
 	choice="$HOME/.config/dunst/"
-  ;;
-Fastfetch)
-	choice="$HOME/.config/fastfetch/"
-  ;;
-Fish)
-	choice="$HOME/.config/fish/"
   ;;
 Nvim)
     choice="$HOME/.config/nvim"
@@ -52,14 +39,11 @@ Bash)
 Zsh)
     choice="$HOME/.zshrc"
     ;;
-Fish)
-    choice="$HOME/.config/fish/"
+Starship)
+    choice="$HOME/.config/starship.toml"
     ;;
 Tmux)
-    choice="$HOME/.config/tmux/tmux.conf"
-    ;;
-'Tmux Statusline')
-    choice="$HOME/.config/tmux/statusline.conf"
+    choice="$HOME/.tmux.conf"
     ;;
 *)
 	exit 1
