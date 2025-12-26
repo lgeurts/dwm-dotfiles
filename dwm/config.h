@@ -35,7 +35,6 @@ static const char *tags[] = {" ", " ", " ", " ",""};
 static const Rule rules[] = {
 	/*       class                instance     title         tags mask     isfloating   monitor */
        {   "Pcmanfm",              NULL,       NULL,         1 << 0,       1,           -1 },
-       {   "helium-browser",       NULL,       NULL,         1 << 1,       0,           -1 },
        {   "qutebrowser",          NULL,       NULL,         1 << 1,       0,           -1 },		
        {   "nvim",                 NULL,       NULL,         1 << 2,       0,           -1 },
        {   "ncspot",               NULL,       NULL,         1 << 2,       1,           -1 },
@@ -117,9 +116,9 @@ static const Key keys[] = {
 	{ MOD2KEY|ControlMask, 		    XK_c, 			             spawn, 	        {.v = configscript} },
 	{ MOD2KEY|ControlMask, 		    XK_m, 			             spawn, 	        {.v = browserbookmarksscript} },
 	{ MOD2KEY,                      XK_s,                        spawn,      		{.v = flameshot} },
+	{ MOD2KEY|ControlMask,          XK_b,                        spawn,      		{.v = qutebrowser} },
 	{ MOD2KEY|ControlMask,          XK_j,                        spawn,             {.v = joshuto} },
 	{ MOD2KEY|ControlMask, 		    XK_Escape, 			         spawn, 	        {.v = powermenu} },
-	{ MOD2KEY|ControlMask,          XK_b,                        spawn,             SHCMD("helium-browser")},
 	{ MOD2KEY|ControlMask,          XK_s,                        spawn,             SHCMD("signal-desktop")},
 	{ MOD2KEY|ControlMask,          XK_o,                		 spawn,             SHCMD("obsidian")},
 	{ MOD2KEY|ControlMask,          XK_p,                		 spawn,             SHCMD("pcmanfm")},
