@@ -10,7 +10,7 @@ options=(
 󰊿 DeepL
  Reddit")
 
-choice=$(echo -e "${options[@]}" | dmenu -c -g 1 -fn "JetBrainsMonoNL:weight=bold:size=10:antialias=true:hinting=true" -nb '#1e1e2d' -nf "#abe9b3" -sb "#d5aeea" -sf "#1e1d2d" -shb "#cba6f7" -shf "#585b70" -nhb "#1e1e2e" -nfh "#585b70" -l 15 -h 30 -p 'Bookmarks: ')
+choice=$(echo -e "${options[@]}" | dmenu -c -g 1 -fn "JetBrainsMono Nerd Font:weight=bold:size=10:antialias=true:hinting=true" -nb '#1e1e2d' -nf "#abe9b3" -sb "#d5aeea" -sf "#1e1d2d" -shb "#cba6f7" -shf "#585b70" -nhb "#1e1e2e" -nfh "#585b70" -l 15 -h 30 -p 'Bookmarks: ')
 
 case "$choice" in
 " DuckDuckGo")
@@ -42,4 +42,4 @@ case "$choice" in
 	;;
 esac
 
-helium-browser "$choice"
+qutebrowser "$choice"

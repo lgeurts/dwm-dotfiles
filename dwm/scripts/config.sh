@@ -7,12 +7,13 @@ Dunst
 Nvim
 St
 Slstatus
+Slock
 Bash
 Zsh
 Starship
 Tmux")
 
-choice=$(echo -e "${options[@]}" | dmenu -c -g 1 -fn "JetBrainsMonoNL:weight=bold:size=10:antialias=true:hinting=true" -nb '#1e1e2d' -nf "#abe9b3" -sb "#d5aeea" -sf "#1e1d2d" -shb "#cba6f7" -shf "#585b70" -nhb "#1e1e2e" -nfh "#585b70" -l 15 -h 30 -p 'Dotfiles: ')
+choice=$(echo -e "${options[@]}" | dmenu -c -g 1 -fn "JetBrainsMono Nerd Font:weight=bold:size=10:antialias=true:hinting=true" -nb '#1e1e2d' -nf "#abe9b3" -sb "#d5aeea" -sf "#1e1d2d" -shb "#cba6f7" -shf "#585b70" -nhb "#1e1e2e" -nfh "#585b70" -l 15 -h 30 -p 'Dotfiles: ')
 
 case "$choice" in
 DWM)
@@ -32,6 +33,9 @@ St)
     ;;
 Slstatus)
     choice="$HOME/.config/suckless/slstatus/"
+    ;;
+Slock)
+    choice="$HOME/.config/suckless/slock/"
     ;;
 Bash)
     choice="$HOME/.bashrc"
