@@ -37,7 +37,7 @@ static const Rule rules[] = {
        {   "Pcmanfm",              NULL,       NULL,         1 << 0,       1,           -1 },
        {   "qutebrowser",          NULL,       NULL,         1 << 1,       0,           -1 },		
        {   "nvim",                 NULL,       NULL,         1 << 2,       0,           -1 },
-       {   "ncspot",               NULL,       NULL,         1 << 2,       1,           -1 },
+       {   "cmus",                 NULL,       NULL,         1 << 3,       1,           -1 },
        {   "signal-desktop",       NULL,       NULL,         1 << 3,       1,           -1 },
 };
 
@@ -100,7 +100,7 @@ static const char *powermenu[] = { "/home/luge/.config/suckless/dwm/scripts/powe
 static const char *configscript[] = { "/home/luge/.config/suckless/dwm/scripts/config.sh", NULL};
 static const char *browserbookmarksscript[] = { "/home/luge/.config/suckless/dwm/scripts/browserbookmarks.sh", NULL};
 
-static const Key keys[] = {
+ static const Key keys[] = {
 	/* modifier                     key                          function           argument */
 	{ MODKEY|ShiftMask,             XK_Return,                   spawn,             {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return,                   spawn,             {.v = termcmd } },
@@ -116,7 +116,6 @@ static const Key keys[] = {
 	{ MOD2KEY|ControlMask, 		    XK_c, 			             spawn, 	        {.v = configscript} },
 	{ MOD2KEY|ControlMask, 		    XK_m, 			             spawn, 	        {.v = browserbookmarksscript} },
 	{ MOD2KEY,                      XK_s,                        spawn,      		{.v = flameshot} },
-	{ MOD2KEY|ControlMask,          XK_b,                        spawn,      		{.v = qutebrowser} },
 	{ MOD2KEY|ControlMask,          XK_j,                        spawn,             {.v = joshuto} },
 	{ MOD2KEY|ControlMask, 		    XK_Escape, 			         spawn, 	        {.v = powermenu} },
 	{ MOD2KEY|ControlMask,          XK_s,                        spawn,             SHCMD("signal-desktop")},
