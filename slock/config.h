@@ -1,21 +1,30 @@
-/* User and group to drop privileges to */
+/* user and group to drop privileges to */
 static const char *user  = "luge";
 static const char *group = "wheel";
 
 static const char *colorname[NUMCOLS] = {
-	[INIT] =   "black",     /* after initialization */
+	[INIT] =   "#A0ECD0",   /* after initialization */
 	[INPUT] =  "#005577",   /* during input */
 	[FAILED] = "#CC3333",   /* wrong password */
 	[CAPS] = "red",         /* CapsLock on */
 };
 
-/* Treat a cleared input like a wrong password (color) */
+/* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
 
+/* time in seconds before the monitor shuts down */
+static const int monitortime = 30;
+
+/* allow control key to trigger fail on clear */
+static const int controlkeyclear = 1;
+
 /* default message */
-static const char * message = "YOU STUPID TOOK, GO AND BE NO MORE OF ANY NUISANCE!";
+static const char * message = "Suckless: Software that sucks less.";
 
 /* text color */
 static const char * text_color = "#ffffff";
+
 /* text size (must be a valid size) */
-static const char * font_name = "6x13";
+//static const char *font_name = "6x13";
+//static const char *font_name = "9x15";
+static const char * font_name = "cursor";

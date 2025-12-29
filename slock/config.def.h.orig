@@ -13,7 +13,7 @@ static const char *colorname[NUMCOLS] = {
 static const int failonclear = 1;
 
 /* default message */
-static const char * message = "YOU STUPID TOOK, GO AND BE NO MORE OF ANY NUISANCE!";
+static const char * message = "YOU STUPID TOOK, GO AND BE NO MORE OF NUISANCE!";
 
 /* text color */
 static const char * text_color = "#ffffff";
