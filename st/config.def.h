@@ -1,7 +1,7 @@
 #include "./colorschemes/catppuccin.h"
 /*JetBrainsMono Nerd Font*/
-static char *font = "JetBrainsMonoNL:size=14:antialias=true:hinting=true";
-static char *font2 = "Roboto Mono for Powerline:pixelsize=12:antialias=true:autohint=true";
+static char *font = "JetBrainsMonoNL:size=10:antialias=true:hinting=true";
+static char *font2 = "Roboto Mono for Powerline:pixelsize=10:antialias=true:autohint=true";
 static int borderpx = 2;
 
 static char *shell = "/bin/sh";
