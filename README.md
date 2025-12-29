@@ -125,9 +125,8 @@ All updates and enhancements aim to avoid big breaking changes, thus fully align
 
 #### Further configuration:
 
-Edit .config/suckless/dwm/config.h and change apps according your needs. Next do a `sudo make install`, and when all works as expected, copy the modified config.h to config.def.h.
-
-PS. I also added .bashrc and .bash_aliases files (see extra). Check them out at your leisure.
+Open .config/suckless/dwm/config.h and change apps according your needs. Next do a `sudo make install`, and when all works as expected, copy the modified config.h to config.def.h. 
+Note that when again adding changes it's a good policy to do so in the config.def.h, deleting config.h and running `sudo make clean install`.
 
 #### Credits:
 
