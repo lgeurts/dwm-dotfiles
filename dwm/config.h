@@ -37,7 +37,7 @@ static const Rule rules[] = {
        {   "Pcmanfm",              NULL,       NULL,         1 << 0,       1,           -1 },
        {   "qutebrowser",          NULL,       NULL,         1 << 1,       0,           -1 },		
        {   "nvim",                 NULL,       NULL,         1 << 2,       0,           -1 },
-       {   "cmus",                 NULL,       NULL,         1 << 3,       1,           -1 },
+       {   "ncspot",               NULL,       NULL,         1 << 2,       1,           -1 },
        {   "signal-desktop",       NULL,       NULL,         1 << 3,       1,           -1 },
 };
 
@@ -118,6 +118,7 @@ static const char *browserbookmarksscript[] = { "/home/luge/.config/suckless/dwm
 	{ MOD2KEY,                      XK_s,                        spawn,      		{.v = flameshot} },
 	{ MOD2KEY|ControlMask,          XK_j,                        spawn,             {.v = joshuto} },
 	{ MOD2KEY|ControlMask, 		    XK_Escape, 			         spawn, 	        {.v = powermenu} },
+	{ MOD2KEY|ControlMask, 		    XK_q, 			             spawn, 	        SHCMD("st -e qutebrowser")},	
 	{ MOD2KEY|ControlMask,          XK_s,                        spawn,             SHCMD("signal-desktop")},
 	{ MOD2KEY|ControlMask,          XK_o,                		 spawn,             SHCMD("obsidian")},
 	{ MOD2KEY|ControlMask,          XK_p,                		 spawn,             SHCMD("pcmanfm")},
